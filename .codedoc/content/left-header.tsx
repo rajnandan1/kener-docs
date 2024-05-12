@@ -21,6 +21,7 @@ const LeftHeaderStyle = themedStyle((theme: CodedocTheme) => ({
         position: "sticky", // --> it should stick to the top of ToC
         top: -32, // --> this is because ToC has a padding by default
         marginTop: -32,
+		fontSize: "12px",
         background: theme.toc.light.background, // --> should be of same background as ToC
         "body.dark &": { background: theme.toc.dark.background }, // --> also should share the ToC background in dark mode
         "@media (prefers-color-scheme: dark)": {

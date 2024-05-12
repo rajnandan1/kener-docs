@@ -33,19 +33,6 @@ export function content(
             toc={
                 <ToC
                     default="open"
-                    search={
-                        config.misc?.github ? (
-                            <GithubSearch$
-                                repo="kener-docs"
-                                user={config.misc.github.user}
-                                root={config.src.base}
-                                pick={config.src.pick.source}
-                                drop={config.src.drop.source}
-                            />
-                        ) : (
-                            false
-                        )
-                    }
                 >
                     <LeftHeaderPadding /> {/* --> add the padding */}
                     {toc}

@@ -15,7 +15,6 @@ import { postNavSearch } from '/Users/raj/githubprojects/kener-docs/.codedoc/nod
 import { copyLineLinks } from '/Users/raj/githubprojects/kener-docs/.codedoc/node_modules/@codedoc/core/dist/es6/components/code/line-links/copy-line-link.js';copyLineLinks();
 import { gatherFootnotes } from '/Users/raj/githubprojects/kener-docs/.codedoc/node_modules/@codedoc/core/dist/es6/components/footnote/gather-footnotes.js';gatherFootnotes();
 import { ToCToggle } from '/Users/raj/githubprojects/kener-docs/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/toggle/index.js';
-import { GithubSearch } from '/Users/raj/githubprojects/kener-docs/.codedoc/node_modules/@codedoc/core/dist/es6/components/misc/github/search.js';
 import { DarkModeSwitch } from '/Users/raj/githubprojects/kener-docs/.codedoc/node_modules/@codedoc/core/dist/es6/components/darkmode/index.js';
 import { ConfigTransport } from '/Users/raj/githubprojects/kener-docs/.codedoc/node_modules/@codedoc/core/dist/es6/transport/config.js';
 import { TabSelector } from '/Users/raj/githubprojects/kener-docs/.codedoc/node_modules/@codedoc/core/dist/es6/components/tabs/selector.js';
@@ -24,7 +23,6 @@ import { ToCPrevNext } from '/Users/raj/githubprojects/kener-docs/.codedoc/node_
 
 const components = {
   '/Scrk/N2b/KpMUdvPufC6w==': ToCToggle,
-  '9qq+LdxSJoBKD5Mh1Y5Tmw==': GithubSearch,
   'YabODUY0JBHAi6/vfnIY7g==': DarkModeSwitch,
   'SNVkOTltNsdNBwHAwc2oCg==': ConfigTransport,
   'vLiG2+dq5MiQfrsvt0kUCg==': TabSelector,
