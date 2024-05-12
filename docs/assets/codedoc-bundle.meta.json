@@ -74,11 +74,6 @@
       "name": "gatherFootnotes",
       "filename": "/Users/raj/githubprojects/kener-docs/.codedoc/node_modules/@codedoc/core/dist/es6/components/footnote/gather-footnotes.js",
       "hash": "/TAeVRLFdqaxfv52HMr5oQ=="
-    },
-    {
-      "name": "reloadOnChange",
-      "filename": "/Users/raj/githubprojects/kener-docs/.codedoc/node_modules/@codedoc/core/dist/es6/serve/reload.js",
-      "hash": "Rl12P0qtv6m0qbgUXHfuHg=="
     }
   ],
   "components": [
