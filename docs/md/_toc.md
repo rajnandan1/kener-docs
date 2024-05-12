@@ -11,5 +11,6 @@
 [Incident Management](/docs/incident-management)
 [Kener APIs](/docs/kener-apis)
 [Status Badges](/docs/status-badges)
+[Showcase](/docs/showcase)
 
 
