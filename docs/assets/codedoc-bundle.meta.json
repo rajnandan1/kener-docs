@@ -91,21 +91,6 @@
       "name": "ConfigTransport",
       "filename": "/Users/raj/githubprojects/kener-docs/.codedoc/node_modules/@codedoc/core/dist/es6/transport/config.js",
       "hash": "SNVkOTltNsdNBwHAwc2oCg=="
-    },
-    {
-      "name": "TabSelector",
-      "filename": "/Users/raj/githubprojects/kener-docs/.codedoc/node_modules/@codedoc/core/dist/es6/components/tabs/selector.js",
-      "hash": "vLiG2+dq5MiQfrsvt0kUCg=="
-    },
-    {
-      "name": "CollapseControl",
-      "filename": "/Users/raj/githubprojects/kener-docs/.codedoc/node_modules/@codedoc/core/dist/es6/components/collapse/collapse-control.js",
-      "hash": "qF/mJ50W3lCkSnn446e0Ng=="
-    },
-    {
-      "name": "ToCPrevNext",
-      "filename": "/Users/raj/githubprojects/kener-docs/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/prevnext/index.js",
-      "hash": "4DQLAzRq6croJG6XYIdnkg=="
     }
   ],
   "renderer": {

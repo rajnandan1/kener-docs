@@ -17,17 +17,11 @@ import { gatherFootnotes } from '/Users/raj/githubprojects/kener-docs/.codedoc/n
 import { ToCToggle } from '/Users/raj/githubprojects/kener-docs/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/toggle/index.js';
 import { DarkModeSwitch } from '/Users/raj/githubprojects/kener-docs/.codedoc/node_modules/@codedoc/core/dist/es6/components/darkmode/index.js';
 import { ConfigTransport } from '/Users/raj/githubprojects/kener-docs/.codedoc/node_modules/@codedoc/core/dist/es6/transport/config.js';
-import { TabSelector } from '/Users/raj/githubprojects/kener-docs/.codedoc/node_modules/@codedoc/core/dist/es6/components/tabs/selector.js';
-import { CollapseControl } from '/Users/raj/githubprojects/kener-docs/.codedoc/node_modules/@codedoc/core/dist/es6/components/collapse/collapse-control.js';
-import { ToCPrevNext } from '/Users/raj/githubprojects/kener-docs/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/prevnext/index.js';
 
 const components = {
   '/Scrk/N2b/KpMUdvPufC6w==': ToCToggle,
   'YabODUY0JBHAi6/vfnIY7g==': DarkModeSwitch,
-  'SNVkOTltNsdNBwHAwc2oCg==': ConfigTransport,
-  'vLiG2+dq5MiQfrsvt0kUCg==': TabSelector,
-  'qF/mJ50W3lCkSnn446e0Ng==': CollapseControl,
-  '4DQLAzRq6croJG6XYIdnkg==': ToCPrevNext
+  'SNVkOTltNsdNBwHAwc2oCg==': ConfigTransport
 };
 
 const renderer = getRenderer();
