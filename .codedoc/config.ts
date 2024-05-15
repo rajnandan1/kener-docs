@@ -1,5 +1,6 @@
 import { configuration } from "@codedoc/core";
 import { googleAnalytics } from "./plugins/ga-plugin";
+import { customCSS } from "./plugins/css";
 
 import { theme } from "./theme";
 
@@ -33,6 +34,7 @@ export const config = /*#__PURE__*/ configuration({
     },
     plugins: [
         // ...
-        googleAnalytics(), // --> your google analytics ID goes here
+        googleAnalytics(),
+		customCSS(),
     ],
 });

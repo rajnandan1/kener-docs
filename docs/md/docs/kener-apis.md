@@ -37,6 +37,8 @@ curl --request POST \
 	"tag": "google-search"
 }'
 ```
+> :Buttons
+> > :CopyButton
 
 ### Response
 
@@ -46,6 +48,8 @@ curl --request POST \
 	"message": "success at 1702405860"
 }
 ```
+> :Buttons
+> > :CopyButton
 
 This will update the status of the monitor with tag `google-search` to DOWN at UTC 1702405860
 
@@ -62,6 +66,8 @@ curl --request GET \
   --url 'http://your-kener.host/api/status?tag=google-search' \
   --header 'Authorization: Bearer some-token-set-by-you'
 ```
+> :Buttons
+> > :CopyButton
 
 ### Response
 
@@ -72,7 +78,8 @@ curl --request GET \
 	"lastUpdatedAt": 1706447160
 }
 ```
-
+> :Buttons
+> > :CopyButton
 ## Create an Incident
 
 Can be use to create an incident from a remote server
@@ -108,6 +115,8 @@ curl --request POST \
 	"isResolved": false
 }'
 ```
+> :Buttons
+> > :CopyButton
 
 ### Response
 
@@ -127,6 +136,8 @@ curl --request POST \
 	"isResolved": false
 }
 ```
+> :Buttons
+> > :CopyButton
 
 ## Update an Incident
 
@@ -167,6 +178,8 @@ curl --request PATCH \
 	"isResolved": false
 }'
 ```
+> :Buttons
+> > :CopyButton
 
 ### Response
 
@@ -186,6 +199,8 @@ curl --request PATCH \
 	"isResolved": false
 }
 ```
+> :Buttons
+> > :CopyButton
 
 ## Get an Incident
 
@@ -198,6 +213,8 @@ curl --request GET \
   --url http://your-kener.host/api/incident/{incidentNumber} \
   --header 'Authorization: Bearer some-token-set-by-you' \
 ```
+> :Buttons
+> > :CopyButton
 
 ### Response
 
@@ -217,6 +234,8 @@ curl --request GET \
 	"isResolved": false
 }
 ```
+> :Buttons
+> > :CopyButton
 
 ## Add Comment
 
@@ -233,6 +252,8 @@ curl --request POST \
 	"body": "comment 1"
 }'
 ```
+> :Buttons
+> > :CopyButton
 
 ### Response
 
@@ -243,6 +264,8 @@ curl --request POST \
 	"createdAt": 1704123938
 }
 ```
+> :Buttons
+> > :CopyButton
 
 ## Get Comments
 
@@ -255,6 +278,8 @@ curl --request GET \
   --url http://your-kener.host/api/incident/{incidentNumber}/comment \
   --header 'Authorization: Bearer some-token-set-by-you' \
 ```
+> :Buttons
+> > :CopyButton
 
 ### Response
 
@@ -272,6 +297,8 @@ curl --request GET \
 	}
 ]
 ```
+> :Buttons
+> > :CopyButton
 
 ## Update Incident Status
 
@@ -298,6 +325,8 @@ curl --request POST \
 	"endDatetime": 1702405920
 }'
 ```
+> :Buttons
+> > :CopyButton
 
 ### Response
 
@@ -317,6 +346,8 @@ curl --request POST \
 	"isResolved": false
 }
 ```
+> :Buttons
+> > :CopyButton
 
 ## Search Incidents
 
@@ -349,6 +380,8 @@ curl --request POST \
 	"endDatetime": 1702405920
 }'
 ```
+> :Buttons
+> > :CopyButton
 
 ### Response
 
@@ -370,3 +403,5 @@ curl --request POST \
 	}
 ]
 ```
+> :Buttons
+> > :CopyButton
