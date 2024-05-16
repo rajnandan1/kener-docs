@@ -40,6 +40,16 @@ While using API you can set this variable to accept request from a specific IP
 export API_IP=127.0.0.1
 ```
 
+## API_IP_REGEX
+
+While using API you can set this variable to accept request from a specific IP that matches the regex. Below example shows an IPv6 regex
+
+```shell
+export API_IP_REGEX=^([0-9a-fA-F]{1,4}:){7}[0-9a-fA-F]{1,4}$
+```
+
+If you set both API_IP and API_IP_REGEX, API_IP will be given preference
+
 ## MONITOR_YAML_PATH
 
 ```shell
