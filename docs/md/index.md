@@ -12,7 +12,7 @@
 
 #### 👉 Visit a live server [here](https://kener.ing)
 
-#### 👉 Quick Start [here](https://kener.ing/kener-docs/docs/quick-start)
+#### 👉 Quick Start [here](https://rajnandan1.github.io/kener-docs/docs/quick-start)
 
 
 

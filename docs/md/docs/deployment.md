@@ -41,7 +41,7 @@ docker.io/rajnandan1/kener:latest
 ghcr.io/rajnandan1/kener:latest
 ```
 
-You should mount a host directory to persist your configuration and expose the web port. [Environmental variables](https://kener.ing/kener-docs/docs/environment-vars) can be passed with `-e` An example `docker run` command:
+You should mount a host directory to persist your configuration and expose the web port. [Environmental variables](https://rajnandan1.github.io/kener-docs/docs/environment-vars) can be passed with `-e` An example `docker run` command:
 
 Make sure you have a `/static` folder inside your config folder
 

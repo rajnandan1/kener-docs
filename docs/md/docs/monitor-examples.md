@@ -100,7 +100,7 @@ Assuming `ORDER_ID` is present in env
 
 ## Eval Body
 
-Read more about [eval](https://kener.ing/kener-docs/docs/monitors#eval)
+Read more about [eval](https://rajnandan1.github.io/kener-docs/docs/monitors#eval)
 
 ```yaml
 - name: Github Issues

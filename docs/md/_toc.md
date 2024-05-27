@@ -1,4 +1,4 @@
-[Home](https://kener.ing/kener-docs/)
+[Home](https://rajnandan1.github.io/kener-docs/)
 [Quick Start](/docs/quick-start)
 [How it works](/docs/how-it-works)
 [Environment Variables](/docs/environment-vars)
