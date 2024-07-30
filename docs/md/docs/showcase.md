@@ -19,3 +19,4 @@ This page is a showcase of how kener is getting used in the wild. If you want to
 #### [scriptor-artis.fr](https://status.scriptor-artis.fr/)
 #### [jiance.f.ozizio.com](http://jiance.f.ozizio.com/)
 #### [sshaw.cn](https://s.sshaw.cn/)
+#### [donotes.app](https://status.donotes.app)
