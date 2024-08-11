@@ -31,20 +31,18 @@ This translates to
 
 ## theme
 
-It can be set by modifying the `<html>` class in `src/app.html` file
+It can be set using theme in site.yaml
 
 ### Dark Theme
 
-```html
-<!doctype html>
-<html lang="en" class="dark dark:bg-background"></html>
+```yaml
+theme: dark
 ```
 
 ### Light theme
 
-```html
-<!doctype html>
-<html lang="en"></html>
+```yaml
+theme: light
 ```
 
 Can be `light` or `dark`. Defaults to `light`
@@ -108,9 +106,9 @@ will become
 
 ```html
 <head>
-	<meta name="description" content="Your description" />
-	<meta name="keywords" content="keyword1, keyword2" />
-	<meta name="og:image" content="https://example.com/og.png" />
+    <meta name="description" content="Your description" />
+    <meta name="keywords" content="keyword1, keyword2" />
+    <meta name="og:image" content="https://example.com/og.png" />
 </head>
 ```
 
@@ -133,7 +131,6 @@ hero:
     title: Kener is a Open-Source Status Page System
     subtitle: Let your users know what's going on.
 ```
-
 
 ## nav
 
